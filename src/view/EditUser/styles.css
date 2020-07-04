@@ -1,0 +1,123 @@
+.edit-user-container {
+  width: 100%;
+  max-width: 1480px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+
+.edit-user-container header {
+  display: flex;
+  align-items: center;
+}
+
+.edit-user-container header .welcome-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-user-container header span {
+  font-size: 25px;
+  margin-left: 8px;
+  margin-top: 0px;
+}
+
+.edit-user-container header a {
+  width: 260px;
+  margin-left: auto;
+  background: #e02041;
+}
+
+.edit-user-container header button {
+  height: 60px;
+  width: 60px;
+  border-radius: 4px;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  margin-left: 16px;
+  transition: border-color 0.2s;
+}
+
+.edit-user-container header button:hover {
+  border-color: #e02041;
+}
+
+.edit-user-container .content {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-user-container .content .content-elements {
+  width: 100%;
+  padding: 96px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.edit-user-container .content .content-elements .page-welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.edit-user-container .content .content-elements section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.edit-user-container .content .content-elements section h1 {
+  font-size: 32px;
+  margin-left: 12px;
+}
+
+.edit-user-container .content .content-elements section p {
+  font-size: 18;
+  color: #737380;
+  line-height: 32px;
+}
+
+.edit-user-container .content .content-elements section a {
+  width: fit-content;
+  transition: 0.3s;
+}
+
+.edit-user-container .content .content-elements section a:hover {
+  opacity: 0.7;
+}
+
+.edit-user-container .content .content-elements section a span {
+  margin-left: 12px;
+}
+
+.edit-user-container .content .content-elements form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.edit-user-container .content .content-elements form .error-messages {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 0 10px;
+  color: red;
+}
+
+.edit-user-container .content .content-elements form .failed-field {
+  border-color: #e02041;
+}
+
+.edit-user-container .content .content-elements form .button {
+  margin-top: 20px;
+  background-color: #e02041;
+}
