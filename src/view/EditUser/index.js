@@ -22,7 +22,9 @@ export default function EditUser(props) {
 
   useEffect(() => {
     api.get(`users/${userId}`).then(
-      response => setUser(response.data)
+      response => {
+        setUser(response.data[0])
+      }
     );
     console.log(initialValues);
   }, [userId]);
